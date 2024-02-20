@@ -2,10 +2,11 @@ package main
 
 import (
 	"fmt"
+	"sampleText"
 )
 
 func main() {
-	fmt.Print("hey")
-	// var abc = text.PrintText()
-	// fmt.Print(abc)
+	fmt.Println("hey")
+	var abc = sampleText.PrintText()
+	fmt.Print(abc)
 }
