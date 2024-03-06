@@ -2,13 +2,14 @@ package main
 
 import (
 	"fmt"
+	"looplearning"
 	"sampleText"
 )
 
 func main() {
 	fmt.Println("hey")
 	var abc = sampleText.PrintText()
-	var alpha = sampleloop.samplel()
+	var al = looplearning.Samplel()
+	fmt.Print(al)
 	fmt.Print(abc)
-	fmt.Print(alpha)
 }

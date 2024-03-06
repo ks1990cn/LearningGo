@@ -1,5 +1,5 @@
-package sampleloop
+package looplearning
 
-func samplel() string {
+func Samplel() string {
 	return "hey loop"
 }
